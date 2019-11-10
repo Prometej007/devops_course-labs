@@ -1,0 +1,18 @@
+INFO 2019-11-10 22:21:01,594 root : Server info: {'System': 'Windows', 'Release': '10', 'Type': 'AMD64'}
+INFO 2019-11-10 22:21:01,594 root : Client info: python-requests/2.22.0
+INFO 2019-11-10 22:21:01,728 root : Server available, server date: 2019-10-26 14:43:02
+INFO 2019-11-10 22:21:01,729 root : Monitoring page: : /health/
+INFO 2019-11-10 22:21:01,730 root : Server info: {'System': 'Windows', 'Release': '10', 'Type': 'AMD64'}
+INFO 2019-11-10 22:21:01,730 root : Client info: python-requests/2.22.0
+INFO 2019-11-10 22:21:01,791 root : Server available, server date: 2019-10-26 14:44:02
+INFO 2019-11-10 22:21:01,792 root : Monitoring page: : /health/
+INFO 2019-11-10 22:21:01,792 root : Server info: {'System': 'Windows', 'Release': '10', 'Type': 'AMD64'}
+INFO 2019-11-10 22:21:01,793 root : Client info: python-requests/2.22.0
+INFO 2019-11-10 22:21:01,860 root : Server available, server date: 2019-10-26 14:45:02
+INFO 2019-11-10 22:21:01,861 root : Monitoring page: : /health/
+INFO 2019-11-10 22:21:01,862 root : Server info: {'System': 'Windows', 'Release': '10', 'Type': 'AMD64'}
+INFO 2019-11-10 22:21:01,863 root : Client info: python-requests/2.22.0
+INFO 2019-11-10 22:21:01,942 root : Server available, server date: 2019-10-26 14:46:02
+INFO 2019-11-10 22:21:01,942 root : Monitoring page: : /health/
+INFO 2019-11-10 22:21:01,943 root : Server info: {'System': 'Windows', 'Release': '10', 'Type': 'AMD64'}
+INFO 2019-11-10 22:21:01,943 root : Client info: python-requests/2.22.0
