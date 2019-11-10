@@ -1,5 +1,5 @@
 1. Проініціалізував середовище pipenv та встановив необхідні пакети
-2. Створив заготовку з допомогою Django у PyCharm
+2. Створив pipenv run django-admin startproject my_site && mv my_site/my_site/* my_site/ && mv my_site/manage.py ./
 3. Запуститв сервер. Використовуючи команду [pipenv run python manage.py runserver] та переходжу за посиланням яке вивелось у консолі:
  ![alttext](https://github.com/Prometej007/devops_course-labs/blob/master/lab3/source/start.png)
 4. Зупинив сервер 
