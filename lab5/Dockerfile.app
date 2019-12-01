@@ -11,7 +11,7 @@ WORKDIR /app
 COPY lab5/requirements.txt ./
 RUN pipenv install -r requirements.txt
 
-COPY lab5/ ./
+COPY lab5/test/ ./
 
 RUN mkdir /logs
 
