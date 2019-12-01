@@ -6,11 +6,11 @@ RUN apk update \
     && apk add git \
     && pip install pipenv
 
-WORKDIR /tests
+WORKDIR /test
 
-COPY tests/requirements.txt ./
+COPY lab5/test/requirements.txt ./
 RUN pipenv install -r requirements.txt
 
-COPY tests/ ./
+COPY lab5/test/ ./
 
 ENTRYPOINT pipenv run pytest test_app.py --url http://app:5000
