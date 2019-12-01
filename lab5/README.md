@@ -21,7 +21,7 @@
    Тести пройшли успішно:
 
 9.  Завантажую image в репозиторію:
-====[Посилання на Docker Hub репозиторій](https://hub.docker.com/repository/docker/prometej46297/lab_5_test)=====
+====[Посилання на Docker Hub репозиторій](https://hub.docker.com/repository/docker/prometej46297/lab_5)=====
 
 =========================Docker compose==============================
 
