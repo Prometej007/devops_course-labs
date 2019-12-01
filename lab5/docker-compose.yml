@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.app
-    image: prometej46297/lab_5_app:latest
+    image: prometej46297/lab_5:app
     container_name: app
     depends_on:
       - redis
@@ -19,7 +19,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.tests
-    image: prometej46297/lab_5_test:latest
+    image: prometej46297/lab_5:tests
     container_name: tests
     depends_on:
       - hits
