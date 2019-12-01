@@ -8,10 +8,10 @@ RUN apk update \
 
 WORKDIR /app
 
-COPY my_app/requirements.txt ./
+COPY lab5/requirements.txt ./
 RUN pipenv install -r requirements.txt
 
-COPY my_app/ ./
+COPY lab5/ ./
 
 RUN mkdir /logs
 
