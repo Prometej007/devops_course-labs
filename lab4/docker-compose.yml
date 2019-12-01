@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: prometej46297/lab_4:latest
+    container_name: lab_4_django
+    networks:
+      - public
+    ports:
+      - 8000:8000
+
+volumes:
+  server-logs:
+    driver: local
+
+networks:
+  public:
+    driver: bridge
