@@ -28,11 +28,9 @@ jobs:
         - docker
       install:
         - cd ./lab5
+      script:
         - make app
         - make tests
-      script:
-        - make run
-        - make test-app
 branches:
   only:
     - master
