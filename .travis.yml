@@ -27,7 +27,7 @@ jobs:
       services:
         - docker
       install:
-        - cd ./
+        - cd ./lab5
         - make app
         - make tests
       script:
