@@ -6,6 +6,12 @@ REPO := prometej46297/lab_5
 $(STATES):
 	@docker build -f Dockerfile.$(@) -t $(REPO):$(@) .
 
+tests:
+	@docker build -f Dockerfile.tests -t prometej46297/lab_5:tests .
+
+app:
+	@docker build -f Dockerfile.app -t prometej46297/lab_5:app .
+
 run:
 	@docker network create --driver=bridge appnet \
 	&& docker run --rm --name redis --net=appnet -d redis \
