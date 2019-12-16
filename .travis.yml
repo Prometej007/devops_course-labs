@@ -28,7 +28,7 @@ jobs:
       script:
         - docker build -t prometej46297/lab_4:django-travis .
         - docker images
-        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push katepavlenko/lab4:django-travis; else echo "PR skip deploy"; fi
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push prometej46297/lab_4:django-travis; else echo "PR skip deploy"; fi
     - stage: "Build Lab 5."
       name: "Build and run Docker images, make"
       services:
