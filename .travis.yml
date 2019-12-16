@@ -27,11 +27,12 @@ jobs:
       services:
         - docker
       install:
-        - make -f lab5/Makefile app
-        - make -f lab5/Makefile tests
+        - cd ./
+        - make app
+        - make tests
       script:
-        - make -f lab5/Makefile run
-        - make -f lab5/Makefile test-app
+        - make run
+        - make test-app
 branches:
   only:
     - master
