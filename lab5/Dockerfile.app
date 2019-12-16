@@ -1,6 +1,10 @@
 FROM python:3.7-alpine
 LABEL author="Prometej"
 
+RUN apk update \
+    && apk upgrade \
+    && pip install pipenv
+
 WORKDIR /app
 
 COPY test/requirements.txt ./
